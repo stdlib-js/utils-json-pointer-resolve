@@ -1,0 +1,95 @@
+{
+  "name": "@stdlib/utils-json-pointer-resolve",
+  "version": "0.0.0",
+  "description": "Resolve a JSON Pointer against a document and return the target, key, and value.",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-json-pointer-resolve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "dependencies": {
+    "@stdlib/assert-has-own-property": "^0.2.3",
+    "@stdlib/assert-is-array": "^0.2.3",
+    "@stdlib/assert-is-plain-object": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/utils-json-pointer-base-assert-is-safe-token": "github:stdlib-js/utils-json-pointer-base-assert-is-safe-token#main",
+    "@stdlib/utils-json-pointer-base-resolve-token": "github:stdlib-js/utils-json-pointer-base-resolve-token#main",
+    "@stdlib/utils-json-pointer-parse": "github:stdlib-js/utils-json-pointer-parse#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
+  },
+  "devDependencies": {
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.2.3"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "json",
+    "pointer",
+    "json-pointer",
+    "rfc6901",
+    "rfc",
+    "6901",
+    "resolve",
+    "traverse",
+    "walk",
+    "reference",
+    "path",
+    "target"
+  ],
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
+  }
+}
